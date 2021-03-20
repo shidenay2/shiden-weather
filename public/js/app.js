@@ -1,6 +1,4 @@
-
-
-    const weatherForm=document.querySelector('form')
+const weatherForm=document.querySelector('form')
     weatherForm.addEventListener('submit',(e)=>{
       e.preventDefault()
         const address=document.getElementById("address-input").value
